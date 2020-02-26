@@ -1,41 +1,45 @@
 #include<bits/stdc++.h>
+//#define endl '\n'
+#define int long long
+int a[610];
+int n,k;
 using namespace std;
-int a[620];
-int sum[620];
-int dp[620][350];
-int main()
+int check(int x)
+{
+	int p=0;
+	for(int i=0;i<k+1;i++)
+	{
+		int now=0;
+		while(p<n&&now+a[p]<=x)
+		{
+			now+=a[p];
+			p++;
+		}
+		if(p==n)return 1;
+	}
+	return 0;
+}
+signed main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-	int n,k;
 	while(cin>>n>>k)
 	{
-		for(int i=1;i<=n+1;i++)
+		n++;
+		int sum=0;
+		for(int i=0;i<n;i++)
 		{
 			cin>>a[i];
+			sum+=a[i];	
 		}
-		for(int i=1;i<=n+1;i++)
+		int l=0,r=sum;
+		while(l<r)
 		{
-			sum[i]=sum[i-1]+a[i];
+			int mid=(l+r)/2;
+			if(check(mid))r=mid;
+			else l=mid+1;
 		}
-		//for(int i=0;i<=n+1;i++)cout<<sum[i]<<' ';
-		//cout<<endl;
-		//start = 0 ,end = n+1
-		for(int i=0;i<=n+1;i++)
-			for(int j=0;j<=k+1;j++)
-				dp[i][j]=INT_MAX;
-		dp[0][0]=0;
-		for(int i=1;i<=k+1;i++)
-		{
-			for(int j=0;j<=n+1;j++)
-			{
-				for(int ii=j+1;ii<=n+1;ii++)
-				{
-					dp[ii][i]=min(dp[ii][i],max(dp[j][i-1],sum[ii]-sum[j]));
-				}
-			}
-		}
-		cout<<dp[n+1][k+1]<<endl;
+		cout<<l<<endl;
 	}
 	return 0;
 }
