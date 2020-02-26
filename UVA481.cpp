@@ -2,7 +2,7 @@
 using namespace std;
 int a[510000];
 int dp[510000];//dp[len] = minimal tail
-int pos[510000];//fa[len] = last;
+int pos[510000];//pos[len] = last;
 vector<int> ans;
 int main()
 {
