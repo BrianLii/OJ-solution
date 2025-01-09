@@ -2,7 +2,7 @@
     Solution for: UVA 100 - The 3n + 1 Problem
     Problem Link: https://onlinejudge.org/external/1/100.pdf
     Verdict: Accepted
-    Submission ID: 30090724
+    Submission ID: 30090733
 */
 
 #include <bits/stdc++.h>
@@ -34,7 +34,7 @@ int main() {
         if (low_bound > high_bound) swap(low_bound, high_bound);
         cout << (*max_element(cycle_lengths.begin() + low_bound,
                               cycle_lengths.begin() + high_bound + 1));
-        cout << endl;
+        cout << '\n';
     }
     return 0;
 }
