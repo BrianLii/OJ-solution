@@ -2,7 +2,7 @@
     Solution for: UVA 102 - Ecological Bin Packing
     Problem Link: https://onlinejudge.org/external/1/102.pdf
     Verdict: Accepted
-    Submission ID: 30090839
+    Submission ID: 30090841
 */
 
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main() {
         min_cost = INT_MAX;
         dfs(num, 0, (1 << 3) - 1, config, best_config, min_cost);
         for (int i = 0; i < 3; i++) cout << "BCG"[best_config[i]];
-        cout << ' ' << min_cost << endl;
+        cout << ' ' << min_cost << '\n';
     }
     return 0;
 }
