@@ -2,15 +2,13 @@
     Solution for: UVA 10099: The Tourist Guide
     Problem Link: https://onlinejudge.org/external/100/10099.pdf
     Verdict: Accepted
-    Submission ID: 30095622
+    Submission ID: 30095657
 */
 
 #include <bits/stdc++.h>
 using namespace std;
 
 class Solution {
-    vector<vector<int>> graph[101];
-    int visited[101], dist[101];
     struct DSU {
         int head[101];
         void init(int num_nodes) { iota(head + 1, head + num_nodes + 1, 1); }
@@ -29,8 +27,7 @@ class Solution {
         }
     } dsu;
 
-   public:
-    void solve(int num_nodes, int num_edges) {
+    void solve_one(int num_nodes, int num_edges) {
         dsu.init(num_nodes);
         priority_queue<vector<int>> edges_heap;
         for (int i = 1; i <= num_edges; i++) {
@@ -53,15 +50,20 @@ class Solution {
             edges_heap.pop();
         }
     }
+
+   public:
+    void solve() {
+        int num_nodes, num_edges;
+        for (int i = 1; cin >> num_nodes >> num_edges && num_nodes; i++) {
+            cout << "Scenario #" << i << "\n";
+            solve_one(num_nodes, num_edges);
+        }
+    }
 };
 
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    int num_nodes, num_edges;
-    for (int i = 1; cin >> num_nodes >> num_edges && num_nodes; i++) {
-        cout << "Scenario #" << i << "\n";
-        Solution().solve(num_nodes, num_edges);
-    }
+    Solution().solve();
     return 0;
 }
