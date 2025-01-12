@@ -1,8 +1,8 @@
 /*
-    Solution for:
-    Problem Link:
+    Solution for: UVA 12289 - One-Two-Three
+    Problem Link: https://onlinejudge.org/external/122/12289.pdf
     Verdict: Accepted
-    Submission ID:
+    Submission ID: 30096256
 */
 
 #include <bits/stdc++.h>
