@@ -2,7 +2,7 @@
     Solution for: UVA 141 - The Spot Game
     Problem Link: https://onlinejudge.org/external/1/141.pdf
     Verdict: Accepted
-    Submission ID: 30112826
+    Submission ID: 30112837
 */
 
 #include <bits/stdc++.h>
@@ -18,21 +18,21 @@ class Solution {
                 current[i].resize(board_size);
                 fill(current[i].begin(), current[i].end(), 0);
             }
-            int pos_x, pos_y;
+            int pos_x, pos_y, r_pos_x, r_pos_y;
             string type;
             map<vector<long long>, bool> appear;
             bool playing = true;
             for (int i = 1; i <= board_size * 2; i++) {
                 cin >> pos_x >> pos_y >> type;
                 if (!playing) continue;
-
                 pos_x--;
                 pos_y--;
+                r_pos_x = board_size - pos_x - 1;
+                r_pos_y = board_size - pos_y - 1;
                 current[0][pos_x] ^= 1LL << pos_y;
-                current[1][pos_y] ^= 1LL << (board_size - pos_x - 1);
-                current[2][board_size - pos_x - 1] ^=
-                    1LL << (board_size - pos_y - 1);
-                current[3][board_size - pos_y - 1] ^= 1LL << pos_x;
+                current[1][pos_y] ^= 1LL << r_pos_x;
+                current[2][r_pos_x] ^= 1LL << r_pos_y;
+                current[3][r_pos_y] ^= 1LL << pos_x;
 
                 if (appear[current[0]]) {
                     cout << "Player " << "12"[i % 2] << " wins on move ";
