@@ -2,7 +2,7 @@
 
 This repository contains my solutions to problems from the UVa Online Judge.
 
-`UVA_verified/`: Contains solutions that have been accepted by the UVa Online Judge.
+`UVA_verified/` contains solutions that have been accepted by the UVa Online Judge.
 
 ## Notes
 
