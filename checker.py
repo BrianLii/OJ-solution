@@ -6,7 +6,7 @@ def check_file(filename, silent=False):
     with open(filename, "r") as file:
         source = file.read()
 
-        pattern = r"""^\/\*$
+    pattern = r"""^\/\*$
 ^    Solution for: UVA [0-9]+ - .+[^ ]$
 ^    Problem Link: https:\/\/onlinejudge\.org\/external\/[0-9]+\/[0-9]+\.pdf$
 ^    Verdict: Accepted$
