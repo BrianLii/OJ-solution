@@ -2,7 +2,7 @@
     Solution for: UVA 10935 - Throwing cards away
     Problem Link: https://onlinejudge.org/external/109/10935.pdf
     Verdict: Accepted
-    Submission ID:
+    Submission ID: 30113987
 */
 
 #include <bits/stdc++.h>

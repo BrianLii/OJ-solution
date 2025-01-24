@@ -1,5 +1,5 @@
 /*
-    Solution for: UVA 10469 To Carry or not to Carry
+    Solution for: UVA 10469 - To Carry or not to Carry
     Problem Link: https://onlinejudge.org/external/104/10469.pdf
     Verdict: Accepted
     Submission ID: 30093159

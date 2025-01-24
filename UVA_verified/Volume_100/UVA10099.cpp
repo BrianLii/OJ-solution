@@ -1,5 +1,5 @@
 /*
-    Solution for: UVA 10099: The Tourist Guide
+    Solution for: UVA 10099 - The Tourist Guide
     Problem Link: https://onlinejudge.org/external/100/10099.pdf
     Verdict: Accepted
     Submission ID: 30095657

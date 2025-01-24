@@ -2,7 +2,7 @@
     Solution for: UVA 424 - Integer Inquiry
     Problem Link: https://onlinejudge.org/external/4/424.pdf
     Verdict: Accepted
-    Submission ID:
+    Submission ID: 30113995
 */
 
 #include <bits/stdc++.h>

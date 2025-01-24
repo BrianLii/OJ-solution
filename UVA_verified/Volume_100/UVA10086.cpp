@@ -1,5 +1,5 @@
 /*
-    Solution for: UVA 10086 Test the Rods
+    Solution for: UVA 10086 - Test the Rods
     Problem Link: https://onlinejudge.org/external/100/10086.pdf
     Verdict: Accepted
     Submission ID: 30093486

@@ -1,5 +1,5 @@
 /*
-    Solution for: 10127 - Ones
+    Solution for: UVA 10127 - Ones
     Problem Link: https://onlinejudge.org/external/101/10127.pdf
     Verdict: Accepted
     Submission ID: 30093369

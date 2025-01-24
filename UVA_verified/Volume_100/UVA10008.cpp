@@ -1,5 +1,5 @@
 /*
-    Solution for: 10008 What’s Cryptanalysis?
+    Solution for: UVA 10008 - What’s Cryptanalysis?
     Problem Link: https://onlinejudge.org/external/100/10008.pdf
     Verdict: Accepted
     Submission ID: 30093393

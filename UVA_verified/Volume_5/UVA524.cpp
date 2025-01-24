@@ -1,5 +1,5 @@
 /*
-    Solution for: UVA - 524 Prime Ring Problem
+    Solution for: UVA 524 - Prime Ring Problem
     Problem Link: https://onlinejudge.org/external/5/524.pdf
     Verdict: Accepted
     Submission ID: 30098521
