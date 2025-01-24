@@ -1,2 +1,9 @@
-# My Solutions to OJ problems
-This is just an archive of my old code (which may not get AC on OJs)
+# UVa Online Judge Solutions
+
+This repository contains my solutions to problems from the UVa Online Judge.
+
+`UVA_verified/`: Contains solutions that have been accepted by the UVa Online Judge.
+
+## Notes
+
+- If you find issues or have suggestions for improvements, feel free to open an issue or submit a pull request!
