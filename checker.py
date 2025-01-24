@@ -18,6 +18,10 @@ r"""^\/\*$
 if __name__ == '__main__':
     for root, dirs, files in os.walk('UVA_verified'):
         for file in files:
-            check_file(os.path.join(root, file), silent=True)
-            print("OK: ", os.path.join(root, file))            
-
+            try:
+                check_file(os.path.join(root, file), silent=True)
+                print("OK: ", os.path.join(root, file))            
+            except:
+                print("FAIL: ", os.path.join(root, file))
+                exit(1)
+    exit(0)
