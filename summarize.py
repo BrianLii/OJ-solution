@@ -4,6 +4,7 @@ import os
 import json
 import sys
 
+
 def parse_header(filename):
     with open(filename, "r") as file:
         source = file.read()
@@ -25,23 +26,25 @@ def parse_header(filename):
     assert re.search(r"Volume_(\d+)", filename).group(1) == header["link_vol"]
     return header
 
+
 def get_args():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument(
-        "-v", "--verbose",
+        "--verbose",
         action="store_true",
     )
     arg_parser.add_argument(
-        "-s", "--summary_file",
+        "--summary_file",
         default="summary.json",
         type=str,
     )
     arg_parser.add_argument(
-        "-d", "--directory",
+        "--directory",
         default="UVA",
         type=str,
     )
     return arg_parser.parse_args()
+
 
 if __name__ == "__main__":
     args = get_args()
