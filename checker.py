@@ -8,11 +8,11 @@ def parse_header(filename):
         source = file.read()
 
     pattern = r"""^\/\*$
-^    Solution for: UVA (?P<prob_no>\d+) - (?P<prob_title>.*[^\s])$
-^    Problem Link: (?P<prob_link>https:\/\/onlinejudge\.org\/external\/(?P<link_vol>\d+)\/(?P<link_prob_no>\d+)\.pdf$)
-^    Verdict: Accepted$
-^    Submission ID: (?P<sub_id>\d+)$
-^\*\/$"""
+    Solution for: UVA (?P<prob_no>\d+) - (?P<prob_title>.*[^\s])$
+    Problem Link: (?P<prob_link>https:\/\/onlinejudge\.org\/external\/(?P<link_vol>\d+)\/(?P<link_prob_no>\d+)\.pdf$)
+    Verdict: Accepted$
+    Submission ID: (?P<sub_id>\d+)$
+\*\/$"""
     header = re.match(pattern, source, flags=re.MULTILINE)
     assert header
 
