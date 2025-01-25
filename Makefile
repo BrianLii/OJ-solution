@@ -1,9 +1,9 @@
-.PHONY: all clean lint
-all: summary.json README.md lint
+.PHONY: all summary.json lint clean
+all: lint summary.json README.md
 
 SOURCES := $(wildcard UVA_verified/**/*.cpp)
 
-summary.json: summarize.py $(SOURCES)
+summary.json: summarize.py
 	python summarize.py
 
 README.md: README.template.md summary.json generate_README.py
