@@ -28,6 +28,7 @@ def json_to_markdown(json_data):
         markdown_table += "| " + " | ".join(row) + " |\n"
     return markdown_table
 
+
 if __name__ == "__main__":
     with open("summary.json") as summary:
         table = json_to_markdown(json.load(summary))
