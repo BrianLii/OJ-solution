@@ -11,7 +11,8 @@ def parse_header(filename):
     Solution for: UVA (?P<prob_no>\d+) - (?P<prob_title>.*[^\s])$
     Problem Link: (?P<prob_link>https:\/\/onlinejudge\.org\/external\/(?P<link_vol>\d+)\/(?P<link_prob_no>\d+)\.pdf$)
     Verdict: Accepted$
-    Submission ID: (?P<sub_id>\d+)$
+    Submission ID: (?P<sub_id>\d+)$(
+    Tags: (?P<tags>.*[^\s])$)?
 \*\/$"""
     header = re.match(pattern, source, flags=re.MULTILINE)
     assert header
