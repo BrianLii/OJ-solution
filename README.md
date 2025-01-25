@@ -4,7 +4,7 @@ This repository contains my solutions to problems from the UVa Online Judge.
 
 Feel free to open an issue or submit a pull request!
 
-## Solution List
+## Summary
 | Problem No. | Title | Solution | Tags | Submission ID |
 | ----------- | ----- | -------- | ---- | ------------- |
 | [100](https://onlinejudge.org/external/1/100.pdf) | The 3n + 1 Problem | [UVA100.cpp](UVA_verified/Volume_1/UVA100.cpp) |  | 30090733 |

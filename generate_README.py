@@ -29,9 +29,9 @@ def json_to_markdown(json_data):
     return markdown_table
 
 if __name__ == "__main__":
-    with open("solutions.json") as data:
-        table = json_to_markdown(json.load(data))
+    with open("summary.json") as summary:
+        table = json_to_markdown(json.load(summary))
     with open("README.template.md") as template:
         template = template.read()
     with open("README.md", "w") as readme_file:
-        readme_file.write(template.replace("SOLUTION_LIST_TABLE", table))
+        readme_file.write(template.replace("SUMMARY_TABLE", table))

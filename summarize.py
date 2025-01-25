@@ -1,7 +1,7 @@
 import re
 import os
 import json
-
+import sys
 
 def parse_header(filename):
     with open(filename, "r") as file:
@@ -26,22 +26,23 @@ def parse_header(filename):
 
 
 if __name__ == "__main__":
+    verbose = False
+    summary_file = "summary.json"
     headers = []
-    verbose = True
     for root, dirs, files in os.walk("UVA_verified"):
         for file in files:
             try:
                 header = parse_header(os.path.join(root, file))
                 headers.append(header)
                 if verbose:
-                    print("OK: ", os.path.join(root, file))
-                    print(json.dumps(header, indent=2))
+                    print("OK: ", os.path.join(root, file), file=sys.stderr)
+                    print(json.dumps(header, indent=2), file=sys.stderr)
             except:
-                print("FAIL: ", os.path.join(root, file))
+                print("FAIL: ", os.path.join(root, file), file=sys.stderr)
                 exit(1)
     headers = sorted(headers, key=lambda header: int(header["prob_no"]))
 
-    print("OK: data saved in solutions.json")
-    with open("solutions.json", "w") as file:
+    print(f"OK: data saved in {summary_file}", file=sys.stderr)
+    with open(summary_file, "w") as file:
         json.dump(headers, file, indent=2, sort_keys=True)
     exit(0)
