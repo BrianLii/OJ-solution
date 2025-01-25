@@ -1,30 +1,44 @@
 import re
 import os
+import json
 
 
-def check_file(filename, silent=False):
+def parse_header(filename):
     with open(filename, "r") as file:
         source = file.read()
 
     pattern = r"""^\/\*$
-^    Solution for: UVA [0-9]+ - .+[^ ]$
-^    Problem Link: https:\/\/onlinejudge\.org\/external\/[0-9]+\/[0-9]+\.pdf$
+^    Solution for: UVA (?P<prob_no>\d+) - (?P<prob_title>.*[^\s])$
+^    Problem Link: (?P<prob_link>https:\/\/onlinejudge\.org\/external\/(?P<link_vol>\d+)\/(?P<link_prob_no>\d+)\.pdf$)
 ^    Verdict: Accepted$
-^    Submission ID: [0-9]+$
+^    Submission ID: (?P<sub_id>\d+)$
 ^\*\/$"""
-    result = re.search(pattern, source, flags=re.MULTILINE)
-    assert result
-    if not silent:
-        print(result.group(0))
+    header = re.match(pattern, source, flags=re.MULTILINE)
+    assert header
+
+    header = header.groupdict()
+    assert header["link_prob_no"] == header["prob_no"]
+    assert header["link_vol"] == header["prob_no"][:-2]
+    return header
 
 
 if __name__ == "__main__":
+    headers = []
+    verbose = True
     for root, dirs, files in os.walk("UVA_verified"):
         for file in files:
             try:
-                check_file(os.path.join(root, file), silent=True)
-                print("OK: ", os.path.join(root, file))
+                header = parse_header(os.path.join(root, file))
+                headers.append(header)
+                if verbose:
+                    print("OK: ", os.path.join(root, file))
+                    print(json.dumps(header, indent=2))
             except:
                 print("FAIL: ", os.path.join(root, file))
                 exit(1)
+    headers = sorted(headers, key=lambda header: int(header["prob_no"]))
+
+    print("OK: data saved in solutions.json")
+    with open("solutions.json", "w") as file:
+        json.dump(headers, file, indent=2, sort_keys=True)
     exit(0)
