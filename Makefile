@@ -1,7 +1,7 @@
 .PHONY: all summary.json lint clean
 all: lint summary.json README.md
 
-SOURCES := $(wildcard UVA_verified/**/*.cpp)
+SOURCES := $(wildcard UVA/**/*.cpp)
 
 summary.json: summarize.py
 	python summarize.py

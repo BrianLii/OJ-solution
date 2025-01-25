@@ -13,7 +13,7 @@ def json_to_markdown(json_data):
         prob_title = entry["prob_title"]
         prob_link = entry["prob_link"]
         vol = entry["link_vol"]
-        sol_link = f"UVA_verified/Volume_{vol}/UVA{prob_no}.cpp"
+        sol_link = f"UVA/Volume_{vol}/UVA{prob_no}.cpp"
         tags = entry["tags"] if entry["tags"] else ""
         tags = " ".join([f"`{tag}`" for tag in tags.split()])
         sub_id = entry["sub_id"]

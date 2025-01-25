@@ -29,7 +29,7 @@ if __name__ == "__main__":
     verbose = False
     summary_file = "summary.json"
     headers = []
-    for root, dirs, files in os.walk("UVA_verified"):
+    for root, dirs, files in os.walk("UVA"):
         for file in files:
             try:
                 header = parse_header(os.path.join(root, file))
