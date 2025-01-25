@@ -19,6 +19,8 @@ def parse_header(filename):
     header = header.groupdict()
     assert header["link_prob_no"] == header["prob_no"]
     assert header["link_vol"] == header["prob_no"][:-2]
+    assert os.path.basename(filename) == "UVA" + header["prob_no"] + ".cpp"
+    assert re.search(r"Volume_(\d+)", filename).group(1) == header["link_vol"]
     return header
 
 
