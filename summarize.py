@@ -1,3 +1,4 @@
+import argparse
 import re
 import os
 import json
@@ -24,17 +25,33 @@ def parse_header(filename):
     assert re.search(r"Volume_(\d+)", filename).group(1) == header["link_vol"]
     return header
 
+def get_args():
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument(
+        "-v", "--verbose",
+        action="store_true",
+    )
+    arg_parser.add_argument(
+        "-s", "--summary_file",
+        default="summary.json",
+        type=str,
+    )
+    arg_parser.add_argument(
+        "-d", "--directory",
+        default="UVA",
+        type=str,
+    )
+    return arg_parser.parse_args()
 
 if __name__ == "__main__":
-    verbose = False
-    summary_file = "summary.json"
+    args = get_args()
     headers = []
-    for root, dirs, files in os.walk("UVA"):
+    for root, dirs, files in os.walk(args.directory):
         for file in files:
             try:
                 header = parse_header(os.path.join(root, file))
                 headers.append(header)
-                if verbose:
+                if args.verbose:
                     print("OK: ", os.path.join(root, file), file=sys.stderr)
                     print(json.dumps(header, indent=2), file=sys.stderr)
             except:
@@ -42,7 +59,7 @@ if __name__ == "__main__":
                 exit(1)
     headers = sorted(headers, key=lambda header: int(header["prob_no"]))
 
-    print(f"OK: data saved in {summary_file}", file=sys.stderr)
-    with open(summary_file, "w") as file:
+    print(f"OK: data saved in {args.summary_file}", file=sys.stderr)
+    with open(args.summary_file, "w") as file:
         json.dump(headers, file, indent=2, sort_keys=True)
     exit(0)
