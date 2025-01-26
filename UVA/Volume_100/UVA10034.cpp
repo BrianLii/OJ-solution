@@ -3,6 +3,7 @@
     Problem Link: https://onlinejudge.org/external/100/10034.pdf
     Verdict: Accepted
     Submission ID: 30117380
+    Tags: mst kruskal
 */
 
 #include <bits/stdc++.h>
