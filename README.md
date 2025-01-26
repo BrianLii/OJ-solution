@@ -36,6 +36,7 @@ Feel free to open an issue or submit a pull request!
 | [10008](https://onlinejudge.org/external/100/10008.pdf) | What’s Cryptanalysis? | [UVA10008.cpp](UVA/Volume_100/UVA10008.cpp) |  | 30093393 |
 | [10013](https://onlinejudge.org/external/100/10013.pdf) | Super long sums | [UVA10013.cpp](UVA/Volume_100/UVA10013.cpp) |  | 30095476 |
 | [10019](https://onlinejudge.org/external/100/10019.pdf) | Funny Encryption Method | [UVA10019.cpp](UVA/Volume_100/UVA10019.cpp) |  | 30093176 |
+| [10034](https://onlinejudge.org/external/100/10034.pdf) | Freckles | [UVA10034.cpp](UVA/Volume_100/UVA10034.cpp) |  | 30117380 |
 | [10074](https://onlinejudge.org/external/100/10074.pdf) | Take the Land | [UVA10074.cpp](UVA/Volume_100/UVA10074.cpp) |  | 30095399 |
 | [10086](https://onlinejudge.org/external/100/10086.pdf) | Test the Rods | [UVA10086.cpp](UVA/Volume_100/UVA10086.cpp) |  | 30093486 |
 | [10099](https://onlinejudge.org/external/100/10099.pdf) | The Tourist Guide | [UVA10099.cpp](UVA/Volume_100/UVA10099.cpp) |  | 30095657 |
