@@ -333,6 +333,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "10684",
+    "link_vol": "106",
+    "prob_link": "https://onlinejudge.org/external/106/10684.pdf",
+    "prob_no": "10684",
+    "prob_title": "The jackpot",
+    "sub_id": "30116929",
+    "tags": "dp max-subarray"
+  },
+  {
     "link_prob_no": "10922",
     "link_vol": "109",
     "prob_link": "https://onlinejudge.org/external/109/10922.pdf",
