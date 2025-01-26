@@ -56,6 +56,7 @@ Feel free to open an issue or submit a pull request!
 | [11486](https://onlinejudge.org/external/114/11486.pdf) | Finding Paths in Grid | [UVA11486.cpp](UVA/Volume_114/UVA11486.cpp) |  | 30097271 |
 | [11494](https://onlinejudge.org/external/114/11494.pdf) | Queen | [UVA11494.cpp](UVA/Volume_114/UVA11494.cpp) |  | 30096283 |
 | [11518](https://onlinejudge.org/external/115/11518.pdf) | Dominos 2 | [UVA11518.cpp](UVA/Volume_115/UVA11518.cpp) |  | 30096844 |
+| [11727](https://onlinejudge.org/external/117/11727.pdf) | Cost Cutting | [UVA11727.cpp](UVA/Volume_117/UVA11727.cpp) |  | 30116839 |
 | [11749](https://onlinejudge.org/external/117/11749.pdf) | Poor Trade Advisor | [UVA11749.cpp](UVA/Volume_117/UVA11749.cpp) |  | 30096870 |
 | [11764](https://onlinejudge.org/external/117/11764.pdf) | Jumping Mario | [UVA11764.cpp](UVA/Volume_117/UVA11764.cpp) |  | 30092131 |
 | [11849](https://onlinejudge.org/external/118/11849.pdf) | CD | [UVA11849.cpp](UVA/Volume_118/UVA11849.cpp) |  | 30092277 |
