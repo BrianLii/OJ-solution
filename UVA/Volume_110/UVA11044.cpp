@@ -2,7 +2,7 @@
     Solution for: UVA 11044 - Searching for Nessy
     Problem Link: https://onlinejudge.org/external/110/11044.pdf
     Verdict: Accepted
-    Submission ID: 30116835
+    Submission ID: 30116841
 */
 
 #include <bits/stdc++.h>
@@ -11,9 +11,9 @@ using namespace std;
 class Solution {
    public:
     void solve() {
-        int case_num, n, m;
-        cin >> case_num;
-        while (case_num--) {
+        int num_cases, n, m;
+        cin >> num_cases;
+        while (num_cases--) {
             cin >> n >> m;
             n -= 2;
             m -= 2;
