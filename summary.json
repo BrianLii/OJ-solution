@@ -117,6 +117,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "256",
+    "link_vol": "2",
+    "prob_link": "https://onlinejudge.org/external/2/256.pdf",
+    "prob_no": "256",
+    "prob_title": "Quirksome Squares",
+    "sub_id": "30116857",
+    "tags": null
+  },
+  {
     "link_prob_no": "307",
     "link_vol": "3",
     "prob_link": "https://onlinejudge.org/external/3/307.pdf",

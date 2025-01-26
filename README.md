@@ -20,6 +20,7 @@ Feel free to open an issue or submit a pull request!
 | [151](https://onlinejudge.org/external/1/151.pdf) | Power Crisis | [UVA151.cpp](UVA/Volume_1/UVA151.cpp) |  | 30092107 |
 | [170](https://onlinejudge.org/external/1/170.pdf) | Clock Patience | [UVA170.cpp](UVA/Volume_1/UVA170.cpp) |  | 30112824 |
 | [202](https://onlinejudge.org/external/2/202.pdf) | Repeating Decimals | [UVA202.cpp](UVA/Volume_2/UVA202.cpp) |  | 30114736 |
+| [256](https://onlinejudge.org/external/2/256.pdf) | Quirksome Squares | [UVA256.cpp](UVA/Volume_2/UVA256.cpp) |  | 30116857 |
 | [307](https://onlinejudge.org/external/3/307.pdf) | Sticks | [UVA307.cpp](UVA/Volume_3/UVA307.cpp) |  | 30107337 |
 | [424](https://onlinejudge.org/external/4/424.pdf) | Integer Inquiry | [UVA424.cpp](UVA/Volume_4/UVA424.cpp) |  | 30113995 |
 | [492](https://onlinejudge.org/external/4/492.pdf) | Pig-Latin | [UVA492.cpp](UVA/Volume_4/UVA492.cpp) |  | 30113411 |
