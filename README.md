@@ -39,6 +39,7 @@ Feel free to open an issue or submit a pull request!
 | [10099](https://onlinejudge.org/external/100/10099.pdf) | The Tourist Guide | [UVA10099.cpp](UVA/Volume_100/UVA10099.cpp) |  | 30095657 |
 | [10127](https://onlinejudge.org/external/101/10127.pdf) | Ones | [UVA10127.cpp](UVA/Volume_101/UVA10127.cpp) |  | 30093369 |
 | [10168](https://onlinejudge.org/external/101/10168.pdf) | Summation of Four Primes | [UVA10168.cpp](UVA/Volume_101/UVA10168.cpp) |  | 30113307 |
+| [10222](https://onlinejudge.org/external/102/10222.pdf) | Decode the Mad man | [UVA10222.cpp](UVA/Volume_102/UVA10222.cpp) |  | 30116727 |
 | [10340](https://onlinejudge.org/external/103/10340.pdf) | All in All | [UVA10340.cpp](UVA/Volume_103/UVA10340.cpp) |  | 30092166 |
 | [10344](https://onlinejudge.org/external/103/10344.pdf) | 23 out of 5 | [UVA10344.cpp](UVA/Volume_103/UVA10344.cpp) |  | 30116702 |
 | [10469](https://onlinejudge.org/external/104/10469.pdf) | To Carry or not to Carry | [UVA10469.cpp](UVA/Volume_104/UVA10469.cpp) |  | 30093159 |
