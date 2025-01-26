@@ -46,6 +46,7 @@ Feel free to open an issue or submit a pull request!
 | [10340](https://onlinejudge.org/external/103/10340.pdf) | All in All | [UVA10340.cpp](UVA/Volume_103/UVA10340.cpp) |  | 30092166 |
 | [10344](https://onlinejudge.org/external/103/10344.pdf) | 23 out of 5 | [UVA10344.cpp](UVA/Volume_103/UVA10344.cpp) |  | 30116702 |
 | [10469](https://onlinejudge.org/external/104/10469.pdf) | To Carry or not to Carry | [UVA10469.cpp](UVA/Volume_104/UVA10469.cpp) |  | 30093159 |
+| [10508](https://onlinejudge.org/external/105/10508.pdf) | Word Morphing | [UVA10508.cpp](UVA/Volume_105/UVA10508.cpp) | `sorting` | 30117400 |
 | [10684](https://onlinejudge.org/external/106/10684.pdf) | The jackpot | [UVA10684.cpp](UVA/Volume_106/UVA10684.cpp) | `dp` `max-subarray` | 30116929 |
 | [10922](https://onlinejudge.org/external/109/10922.pdf) | 2 the 9s | [UVA10922.cpp](UVA/Volume_109/UVA10922.cpp) |  | 30092398 |
 | [10929](https://onlinejudge.org/external/109/10929.pdf) | You can say 11 | [UVA10929.cpp](UVA/Volume_109/UVA10929.cpp) |  | 30092234 |
