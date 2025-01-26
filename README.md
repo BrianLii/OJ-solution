@@ -60,6 +60,7 @@ Feel free to open an issue or submit a pull request!
 | [11727](https://onlinejudge.org/external/117/11727.pdf) | Cost Cutting | [UVA11727.cpp](UVA/Volume_117/UVA11727.cpp) |  | 30116839 |
 | [11749](https://onlinejudge.org/external/117/11749.pdf) | Poor Trade Advisor | [UVA11749.cpp](UVA/Volume_117/UVA11749.cpp) |  | 30096870 |
 | [11764](https://onlinejudge.org/external/117/11764.pdf) | Jumping Mario | [UVA11764.cpp](UVA/Volume_117/UVA11764.cpp) |  | 30092131 |
+| [11799](https://onlinejudge.org/external/117/11799.pdf) | Horror Dash | [UVA11799.cpp](UVA/Volume_117/UVA11799.cpp) |  | 30116891 |
 | [11849](https://onlinejudge.org/external/118/11849.pdf) | CD | [UVA11849.cpp](UVA/Volume_118/UVA11849.cpp) |  | 30092277 |
 | [11854](https://onlinejudge.org/external/118/11854.pdf) | Egypt | [UVA11854.cpp](UVA/Volume_118/UVA11854.cpp) |  | 30116886 |
 | [11875](https://onlinejudge.org/external/118/11875.pdf) | Brick Game | [UVA11875.cpp](UVA/Volume_118/UVA11875.cpp) |  | 30092301 |
