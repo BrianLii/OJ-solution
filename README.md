@@ -10,7 +10,7 @@ Feel free to open an issue or submit a pull request!
 | [100](https://onlinejudge.org/external/1/100.pdf) | The 3n + 1 Problem | [UVA100.cpp](UVA/Volume_1/UVA100.cpp) |  | 30090733 |
 | [102](https://onlinejudge.org/external/1/102.pdf) | Ecological Bin Packing | [UVA102.cpp](UVA/Volume_1/UVA102.cpp) |  | 30090841 |
 | [105](https://onlinejudge.org/external/1/105.pdf) | The Skyline Problem | [UVA105.cpp](UVA/Volume_1/UVA105.cpp) |  | 30090910 |
-| [106](https://onlinejudge.org/external/1/106.pdf) | Fermat vs. Pythagoras | [UVA106.cpp](UVA/Volume_1/UVA106.cpp) |  | 30114499 |
+| [106](https://onlinejudge.org/external/1/106.pdf) | Fermat vs. Pythagoras | [UVA106.cpp](UVA/Volume_1/UVA106.cpp) | `math` `difference-array` | 30116957 |
 | [108](https://onlinejudge.org/external/1/108.pdf) | Maximum Sum | [UVA108.cpp](UVA/Volume_1/UVA108.cpp) |  | 30091665 |
 | [113](https://onlinejudge.org/external/1/113.pdf) | Power of Cryptography | [UVA113.cpp](UVA/Volume_1/UVA113.cpp) |  | 30091672 |
 | [128](https://onlinejudge.org/external/1/128.pdf) | Software CRC | [UVA128.cpp](UVA/Volume_1/UVA128.cpp) |  | 30091829 |
