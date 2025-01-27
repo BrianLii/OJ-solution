@@ -243,6 +243,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "1583",
+    "link_vol": "15",
+    "prob_link": "https://onlinejudge.org/external/15/1583.pdf",
+    "prob_no": "1583",
+    "prob_title": "Digit Generator",
+    "sub_id": "30117983",
+    "tags": null
+  },
+  {
     "link_prob_no": "10008",
     "link_vol": "100",
     "prob_link": "https://onlinejudge.org/external/100/10008.pdf",
