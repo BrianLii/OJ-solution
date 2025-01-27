@@ -3,6 +3,7 @@
     Problem Link: https://onlinejudge.org/external/3/307.pdf
     Verdict: Accepted
     Submission ID: 30107337
+    Tags: dfs pruning
 */
 
 #include <bits/stdc++.h>
