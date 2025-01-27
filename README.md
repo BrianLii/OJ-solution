@@ -32,6 +32,7 @@ Feel free to open an issue or submit a pull request!
 | [700](https://onlinejudge.org/external/7/700.pdf) | Date Bugs | [UVA700.cpp](UVA/Volume_7/UVA700.cpp) |  | 30105628 |
 | [821](https://onlinejudge.org/external/8/821.pdf) | Page Hopping | [UVA821.cpp](UVA/Volume_8/UVA821.cpp) |  | 30097532 |
 | [900](https://onlinejudge.org/external/9/900.pdf) | Brick Wall Patterns | [UVA900.cpp](UVA/Volume_9/UVA900.cpp) |  | 30092317 |
+| [993](https://onlinejudge.org/external/9/993.pdf) | Product of digits | [UVA993.cpp](UVA/Volume_9/UVA993.cpp) |  | 30118084 |
 | [1124](https://onlinejudge.org/external/11/1124.pdf) | Celebrity jeopardy | [UVA1124.cpp](UVA/Volume_11/UVA1124.cpp) |  | 30117894 |
 | [1200](https://onlinejudge.org/external/12/1200.pdf) | A DP Problem | [UVA1200.cpp](UVA/Volume_12/UVA1200.cpp) |  | 30113397 |
 | [1583](https://onlinejudge.org/external/15/1583.pdf) | Digit Generator | [UVA1583.cpp](UVA/Volume_15/UVA1583.cpp) |  | 30117983 |
