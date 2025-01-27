@@ -32,6 +32,7 @@ Feel free to open an issue or submit a pull request!
 | [700](https://onlinejudge.org/external/7/700.pdf) | Date Bugs | [UVA700.cpp](UVA/Volume_7/UVA700.cpp) |  | 30105628 |
 | [821](https://onlinejudge.org/external/8/821.pdf) | Page Hopping | [UVA821.cpp](UVA/Volume_8/UVA821.cpp) |  | 30097532 |
 | [900](https://onlinejudge.org/external/9/900.pdf) | Brick Wall Patterns | [UVA900.cpp](UVA/Volume_9/UVA900.cpp) |  | 30092317 |
+| [1124](https://onlinejudge.org/external/11/1124.pdf) | Celebrity jeopardy | [UVA1124.cpp](UVA/Volume_11/UVA1124.cpp) |  | 30117894 |
 | [1200](https://onlinejudge.org/external/12/1200.pdf) | A DP Problem | [UVA1200.cpp](UVA/Volume_12/UVA1200.cpp) |  | 30113397 |
 | [10008](https://onlinejudge.org/external/100/10008.pdf) | What’s Cryptanalysis? | [UVA10008.cpp](UVA/Volume_100/UVA10008.cpp) |  | 30093393 |
 | [10013](https://onlinejudge.org/external/100/10013.pdf) | Super long sums | [UVA10013.cpp](UVA/Volume_100/UVA10013.cpp) |  | 30095476 |
