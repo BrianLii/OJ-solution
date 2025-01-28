@@ -369,6 +369,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "10405",
+    "link_vol": "104",
+    "prob_link": "https://onlinejudge.org/external/104/10405.pdf",
+    "prob_no": "10405",
+    "prob_title": "Longest Common Subsequence",
+    "sub_id": "30119197",
+    "tags": "dp lcs"
+  },
+  {
     "link_prob_no": "10469",
     "link_vol": "104",
     "prob_link": "https://onlinejudge.org/external/104/10469.pdf",
