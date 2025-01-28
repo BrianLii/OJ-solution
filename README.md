@@ -79,6 +79,6 @@ Feel free to open an issue or submit a pull request!
 | [12289](https://onlinejudge.org/external/122/12289.pdf) | One-Two-Three | [UVA12289.cpp](UVA/Volume_122/UVA12289.cpp) |  | 30096256 |
 | [12372](https://onlinejudge.org/external/123/12372.pdf) | Packing for Holiday | [UVA12372.cpp](UVA/Volume_123/UVA12372.cpp) |  | 30114007 |
 | [12442](https://onlinejudge.org/external/124/12442.pdf) | Forwarding Emails | [UVA12442.cpp](UVA/Volume_124/UVA12442.cpp) |  | 30114171 |
-| [12455](https://onlinejudge.org/external/124/12455.pdf) | Bars | [UVA12455.cpp](UVA/Volume_124/UVA12455.cpp) |  | 30114203 |
+| [12455](https://onlinejudge.org/external/124/12455.pdf) | Bars | [UVA12455.cpp](UVA/Volume_124/UVA12455.cpp) | `dp` `knapsack` | 30114203 |
 | [13025](https://onlinejudge.org/external/130/13025.pdf) | Back to the Past | [UVA13025.cpp](UVA/Volume_130/UVA13025.cpp) |  | 30118093 |
 

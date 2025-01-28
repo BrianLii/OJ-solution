@@ -3,33 +3,29 @@
     Problem Link: https://onlinejudge.org/external/124/12455.pdf
     Verdict: Accepted
     Submission ID: 30114203
+    Tags: dp knapsack
 */
 
 #include <bits/stdc++.h>
 using namespace std;
 
 class Solution {
-    bool dfs(int bars[], int remain, int current) {
-        if (!remain) return true;
-        if (current == -1) return false;
-        if (remain < bars[current]) return false;
-        return dfs(bars, remain - bars[current], current - 1) ||
-               dfs(bars, remain, current - 1);
-    }
-
    public:
     void solve() {
-        int bars[1001];
-        int num_cases;
+        int num_cases, num_bars, target;
+        int dp[1001];
         cin >> num_cases;
         while (num_cases--) {
-            int num_bars, target;
             cin >> target >> num_bars;
-            for (int i = 0; i < num_bars; i++) {
-                cin >> bars[i];
+            dp[0] = true;
+            fill(dp + 1, dp + target + 1, false);
+            for (int i = 0, bar; i < num_bars; i++) {
+                cin >> bar;
+                for (int j = target - bar; j >= 0; j--) {
+                    if (dp[j]) dp[j + bar] = true;
+                }
             }
-            sort(bars, bars + num_bars, greater<int>());
-            if (dfs(bars, target, num_bars - 1)) {
+            if (dp[target]) {
                 cout << "YES\n";
             } else {
                 cout << "NO\n";
