@@ -25,6 +25,7 @@ Feel free to open an issue or submit a pull request!
 | [336](https://onlinejudge.org/external/3/336.pdf) | A Node Too Far | [UVA336.cpp](UVA/Volume_3/UVA336.cpp) | `bfs` | 30120598 |
 | [374](https://onlinejudge.org/external/3/374.pdf) | Big Mod | [UVA374.cpp](UVA/Volume_3/UVA374.cpp) | `square-and-mul` | 30116944 |
 | [424](https://onlinejudge.org/external/4/424.pdf) | Integer Inquiry | [UVA424.cpp](UVA/Volume_4/UVA424.cpp) |  | 30113995 |
+| [439](https://onlinejudge.org/external/4/439.pdf) | Knight Moves | [UVA439.cpp](UVA/Volume_4/UVA439.cpp) | `bfs` | 30120643 |
 | [492](https://onlinejudge.org/external/4/492.pdf) | Pig-Latin | [UVA492.cpp](UVA/Volume_4/UVA492.cpp) |  | 30113411 |
 | [524](https://onlinejudge.org/external/5/524.pdf) | Prime Ring Problem | [UVA524.cpp](UVA/Volume_5/UVA524.cpp) |  | 30098521 |
 | [541](https://onlinejudge.org/external/5/541.pdf) | Error Correction | [UVA541.cpp](UVA/Volume_5/UVA541.cpp) |  | 30113281 |
