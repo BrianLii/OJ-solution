@@ -33,6 +33,7 @@ Feel free to open an issue or submit a pull request!
 | [543](https://onlinejudge.org/external/5/543.pdf) | Goldbach’s Conjecture | [UVA543.cpp](UVA/Volume_5/UVA543.cpp) |  | 30097684 |
 | [568](https://onlinejudge.org/external/5/568.pdf) | Just the Facts | [UVA568.cpp](UVA/Volume_5/UVA568.cpp) |  | 30092374 |
 | [700](https://onlinejudge.org/external/7/700.pdf) | Date Bugs | [UVA700.cpp](UVA/Volume_7/UVA700.cpp) |  | 30105628 |
+| [713](https://onlinejudge.org/external/7/713.pdf) | Adding Reversed Numbers | [UVA713.cpp](UVA/Volume_7/UVA713.cpp) |  | 30125564 |
 | [821](https://onlinejudge.org/external/8/821.pdf) | Page Hopping | [UVA821.cpp](UVA/Volume_8/UVA821.cpp) |  | 30097532 |
 | [900](https://onlinejudge.org/external/9/900.pdf) | Brick Wall Patterns | [UVA900.cpp](UVA/Volume_9/UVA900.cpp) |  | 30092317 |
 | [993](https://onlinejudge.org/external/9/993.pdf) | Product of digits | [UVA993.cpp](UVA/Volume_9/UVA993.cpp) |  | 30118084 |
