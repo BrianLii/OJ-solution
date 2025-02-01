@@ -153,6 +153,15 @@
     "tags": "square-and-mul"
   },
   {
+    "link_prob_no": "382",
+    "link_vol": "3",
+    "prob_link": "https://onlinejudge.org/external/3/382.pdf",
+    "prob_no": "382",
+    "prob_title": "Perfection",
+    "sub_id": "30125508",
+    "tags": null
+  },
+  {
     "link_prob_no": "424",
     "link_vol": "4",
     "prob_link": "https://onlinejudge.org/external/4/424.pdf",
