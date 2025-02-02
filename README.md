@@ -37,6 +37,7 @@ Feel free to open an issue or submit a pull request!
 | [713](https://onlinejudge.org/external/7/713.pdf) | Adding Reversed Numbers | [UVA713.cpp](UVA/Volume_7/UVA713.cpp) |  | 30125564 |
 | [821](https://onlinejudge.org/external/8/821.pdf) | Page Hopping | [UVA821.cpp](UVA/Volume_8/UVA821.cpp) |  | 30097532 |
 | [900](https://onlinejudge.org/external/9/900.pdf) | Brick Wall Patterns | [UVA900.cpp](UVA/Volume_9/UVA900.cpp) |  | 30092317 |
+| [913](https://onlinejudge.org/external/9/913.pdf) | Joana and the Odd Numbers | [UVA913.cpp](UVA/Volume_9/UVA913.cpp) |  | 30127418 |
 | [993](https://onlinejudge.org/external/9/993.pdf) | Product of digits | [UVA993.cpp](UVA/Volume_9/UVA993.cpp) |  | 30118084 |
 | [1124](https://onlinejudge.org/external/11/1124.pdf) | Celebrity jeopardy | [UVA1124.cpp](UVA/Volume_11/UVA1124.cpp) |  | 30117894 |
 | [1200](https://onlinejudge.org/external/12/1200.pdf) | A DP Problem | [UVA1200.cpp](UVA/Volume_12/UVA1200.cpp) |  | 30113397 |
