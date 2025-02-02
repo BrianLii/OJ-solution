@@ -117,6 +117,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "222",
+    "link_vol": "2",
+    "prob_link": "https://onlinejudge.org/external/2/222.pdf",
+    "prob_no": "222",
+    "prob_title": "Budget Travel",
+    "sub_id": "30127371",
+    "tags": "dp"
+  },
+  {
     "link_prob_no": "256",
     "link_vol": "2",
     "prob_link": "https://onlinejudge.org/external/2/256.pdf",

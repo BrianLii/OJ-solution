@@ -20,6 +20,7 @@ Feel free to open an issue or submit a pull request!
 | [151](https://onlinejudge.org/external/1/151.pdf) | Power Crisis | [UVA151.cpp](UVA/Volume_1/UVA151.cpp) |  | 30092107 |
 | [170](https://onlinejudge.org/external/1/170.pdf) | Clock Patience | [UVA170.cpp](UVA/Volume_1/UVA170.cpp) |  | 30112824 |
 | [202](https://onlinejudge.org/external/2/202.pdf) | Repeating Decimals | [UVA202.cpp](UVA/Volume_2/UVA202.cpp) |  | 30114736 |
+| [222](https://onlinejudge.org/external/2/222.pdf) | Budget Travel | [UVA222.cpp](UVA/Volume_2/UVA222.cpp) | `dp` | 30127371 |
 | [256](https://onlinejudge.org/external/2/256.pdf) | Quirksome Squares | [UVA256.cpp](UVA/Volume_2/UVA256.cpp) |  | 30116857 |
 | [307](https://onlinejudge.org/external/3/307.pdf) | Sticks | [UVA307.cpp](UVA/Volume_3/UVA307.cpp) | `dfs` `pruning` | 30107337 |
 | [336](https://onlinejudge.org/external/3/336.pdf) | A Node Too Far | [UVA336.cpp](UVA/Volume_3/UVA336.cpp) | `bfs` | 30120598 |
