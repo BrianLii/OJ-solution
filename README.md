@@ -48,7 +48,7 @@ Feel free to open an issue or submit a pull request!
 | [10019](https://onlinejudge.org/external/100/10019.pdf) | Funny Encryption Method | [UVA10019.cpp](UVA/Volume_100/UVA10019.cpp) |  | 30093176 |
 | [10034](https://onlinejudge.org/external/100/10034.pdf) | Freckles | [UVA10034.cpp](UVA/Volume_100/UVA10034.cpp) | `mst` `kruskal` | 30117380 |
 | [10074](https://onlinejudge.org/external/100/10074.pdf) | Take the Land | [UVA10074.cpp](UVA/Volume_100/UVA10074.cpp) |  | 30095399 |
-| [10086](https://onlinejudge.org/external/100/10086.pdf) | Test the Rods | [UVA10086.cpp](UVA/Volume_100/UVA10086.cpp) |  | 30093486 |
+| [10086](https://onlinejudge.org/external/100/10086.pdf) | Test the Rods | [UVA10086.cpp](UVA/Volume_100/UVA10086.cpp) | `dp` `backtracking` | 30130306 |
 | [10099](https://onlinejudge.org/external/100/10099.pdf) | The Tourist Guide | [UVA10099.cpp](UVA/Volume_100/UVA10099.cpp) |  | 30095657 |
 | [10127](https://onlinejudge.org/external/101/10127.pdf) | Ones | [UVA10127.cpp](UVA/Volume_101/UVA10127.cpp) |  | 30093369 |
 | [10168](https://onlinejudge.org/external/101/10168.pdf) | Summation of Four Primes | [UVA10168.cpp](UVA/Volume_101/UVA10168.cpp) |  | 30113307 |

@@ -2,7 +2,8 @@
     Solution for: UVA 10086 - Test the Rods
     Problem Link: https://onlinejudge.org/external/100/10086.pdf
     Verdict: Accepted
-    Submission ID: 30093486
+    Submission ID: 30130306
+    Tags: dp backtracking
 */
 
 #include <bits/stdc++.h>
@@ -10,29 +11,29 @@ using namespace std;
 
 class Solution {
     void solve_one(int T1, int T2) {
-        int site_num, site_rod;
-        cin >> site_num;
-        vector<int> rod_num(site_num + 1);
-        vector<vector<int>> cost_1(site_num + 1), cost_2(site_num + 1);
-        for (int i = 1; i <= site_num; i++) {
-            cin >> rod_num[i];
-            cost_1[i].resize(rod_num[i] + 1);
-            for (int j = 1; j <= rod_num[i]; j++) {
+        int num_sites, site_rod;
+        static int num_rods[31];
+        static int cost_1[31][301], cost_2[31][301];
+        static int min_cost[31][301], min_from[31][301];
+        static int path[31];
+        cin >> num_sites;
+        for (int i = 1; i <= num_sites; i++) {
+            cin >> num_rods[i];
+            for (int j = 1; j <= num_rods[i]; j++) {
                 cin >> cost_1[i][j];
             }
-            cost_2[i].resize(rod_num[i] + 1);
-            for (int j = 1; j <= rod_num[i]; j++) {
+            for (int j = 1; j <= num_rods[i]; j++) {
                 cin >> cost_2[i][j];
             }
         }
-        vector<vector<int>> min_cost(site_num + 1, vector<int>(T1 + 1, 1e6));
-        vector<vector<int>> min_from(site_num + 1, vector<int>(T1 + 1, 1e6));
         min_cost[0][0] = 0;
-        for (int i = 1; i <= site_num; i++) {
+        fill(min_cost[0] + 1, min_cost[0] + T1 + 1, 1e6);
+        for (int i = 1; i <= num_sites; i++) {
             for (int j = 0; j <= T1; j++) {
-                for (int k = 0; k <= rod_num[i] && k <= j; k++) {
+                min_cost[i][j] = 1e6;
+                for (int k = 0; k <= num_rods[i] && k <= j; k++) {
                     int curr_cost = min_cost[i - 1][j - k] + cost_1[i][k] +
-                                    cost_2[i][rod_num[i] - k];
+                                    cost_2[i][num_rods[i] - k];
                     if (curr_cost < min_cost[i][j]) {
                         min_cost[i][j] = curr_cost;
                         min_from[i][j] = j - k;
@@ -40,14 +41,15 @@ class Solution {
                 }
             }
         }
-        cout << min_cost[site_num][T1] << '\n';
-        vector<int> path(site_num + 1);
-        for (int i = site_num, curr_state = T1; i >= 1; i--) {
+        cout << min_cost[num_sites][T1] << '\n';
+        for (int i = num_sites, curr_state = T1; i >= 1; i--) {
             path[i] = curr_state - min_from[i][curr_state];
             curr_state = min_from[i][curr_state];
         }
         cout << path[1];
-        for (int i = 2; i <= site_num; i++) cout << ' ' << path[i];
+        for (int i = 2; i <= num_sites; i++) {
+            cout << ' ' << path[i];
+        }
         cout << "\n\n";
     }
 
