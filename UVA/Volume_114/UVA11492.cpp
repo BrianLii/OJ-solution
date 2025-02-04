@@ -2,7 +2,8 @@
     Solution for: UVA 11492 - Babel
     Problem Link: https://onlinejudge.org/external/114/11492.pdf
     Verdict: Accepted
-    Submission ID: 30130928
+    Submission ID: 30130960
+    Tags: sssp dijkstra
 */
 
 #include <bits/stdc++.h>
@@ -35,11 +36,11 @@ class Solution {
 
    public:
     void solve() {
-        const int max_node = 4002;
+        const int max_lang = 4002;
         int num_words;
         int dist[4002][26], visited[4002][26] = {0};
         vector<Edge> edges[4002];
-        for (int i = 0; i < max_node; i++) {
+        for (int i = 0; i < max_lang; i++) {
             fill(dist[i], dist[i] + 26, INT_MAX);
         }
 

@@ -78,7 +78,7 @@ Feel free to open an issue or submit a pull request!
 | [11428](https://onlinejudge.org/external/114/11428.pdf) | Cubes | [UVA11428.cpp](UVA/Volume_114/UVA11428.cpp) |  | 30096337 |
 | [11462](https://onlinejudge.org/external/114/11462.pdf) | Age Sort | [UVA11462.cpp](UVA/Volume_114/UVA11462.cpp) | `counting-sort` | 30130562 |
 | [11486](https://onlinejudge.org/external/114/11486.pdf) | Finding Paths in Grid | [UVA11486.cpp](UVA/Volume_114/UVA11486.cpp) |  | 30097271 |
-| [11492](https://onlinejudge.org/external/114/11492.pdf) | Babel | [UVA11492.cpp](UVA/Volume_114/UVA11492.cpp) |  | 30130928 |
+| [11492](https://onlinejudge.org/external/114/11492.pdf) | Babel | [UVA11492.cpp](UVA/Volume_114/UVA11492.cpp) | `sssp` `dijkstra` | 30130960 |
 | [11494](https://onlinejudge.org/external/114/11494.pdf) | Queen | [UVA11494.cpp](UVA/Volume_114/UVA11494.cpp) |  | 30096283 |
 | [11518](https://onlinejudge.org/external/115/11518.pdf) | Dominos 2 | [UVA11518.cpp](UVA/Volume_115/UVA11518.cpp) |  | 30096844 |
 | [11727](https://onlinejudge.org/external/117/11727.pdf) | Cost Cutting | [UVA11727.cpp](UVA/Volume_117/UVA11727.cpp) |  | 30116839 |

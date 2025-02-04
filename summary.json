@@ -644,8 +644,8 @@
     "prob_link": "https://onlinejudge.org/external/114/11492.pdf",
     "prob_no": "11492",
     "prob_title": "Babel",
-    "sub_id": "30130928",
-    "tags": null
+    "sub_id": "30130960",
+    "tags": "sssp dijkstra"
   },
   {
     "link_prob_no": "11494",
