@@ -369,6 +369,15 @@
     "tags": "mst kruskal"
   },
   {
+    "link_prob_no": "10041",
+    "link_vol": "100",
+    "prob_link": "https://onlinejudge.org/external/100/10041.pdf",
+    "prob_no": "10041",
+    "prob_title": "Vito\u2019s family",
+    "sub_id": "30130447",
+    "tags": null
+  },
+  {
     "link_prob_no": "10074",
     "link_vol": "100",
     "prob_link": "https://onlinejudge.org/external/100/10074.pdf",
