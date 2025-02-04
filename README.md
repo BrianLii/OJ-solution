@@ -25,6 +25,7 @@ Feel free to open an issue or submit a pull request!
 | [256](https://onlinejudge.org/external/2/256.pdf) | Quirksome Squares | [UVA256.cpp](UVA/Volume_2/UVA256.cpp) |  | 30116857 |
 | [307](https://onlinejudge.org/external/3/307.pdf) | Sticks | [UVA307.cpp](UVA/Volume_3/UVA307.cpp) | `dfs` `pruning` | 30107337 |
 | [336](https://onlinejudge.org/external/3/336.pdf) | A Node Too Far | [UVA336.cpp](UVA/Volume_3/UVA336.cpp) | `bfs` | 30120598 |
+| [341](https://onlinejudge.org/external/3/341.pdf) | Non-Stop Travel | [UVA341.cpp](UVA/Volume_3/UVA341.cpp) | `sssp` `dijkstra` | 30131000 |
 | [374](https://onlinejudge.org/external/3/374.pdf) | Big Mod | [UVA374.cpp](UVA/Volume_3/UVA374.cpp) | `square-and-mul` | 30116944 |
 | [382](https://onlinejudge.org/external/3/382.pdf) | Perfection | [UVA382.cpp](UVA/Volume_3/UVA382.cpp) |  | 30125508 |
 | [424](https://onlinejudge.org/external/4/424.pdf) | Integer Inquiry | [UVA424.cpp](UVA/Volume_4/UVA424.cpp) |  | 30113995 |
