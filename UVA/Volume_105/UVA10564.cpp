@@ -2,7 +2,8 @@
     Solution for: UVA 10564 - Paths through the Hourglass
     Problem Link: https://onlinejudge.org/external/105/10564.pdf
     Verdict: Accepted
-    Submission ID: 30127567
+    Submission ID: 30130552
+    Tags: dp backtracking
 */
 
 #include <bits/stdc++.h>
@@ -10,27 +11,28 @@ using namespace std;
 
 class Solution {
     int values[40][20];
-    long long num_path[40][20][500];
+    int64_t num_path[40][20][500];
 
    public:
     void solve() {
         int width, target;
         while (cin >> width >> target && width) {
-            for (int i = 0; i < width; i++) {
-                for (int j = 0; j < width - i; j++) {
+            int middle = width - 1, last = width * 2 - 2;
+            for (int i = 0; i <= middle; i++) {
+                for (int j = 0; j < middle - i + 1; j++) {
                     cin >> values[i][j];
                     fill(num_path[i][j], num_path[i][j] + target + 1, 0);
                 }
             }
-            for (int i = width; i < width * 2 - 1; i++) {
-                for (int j = 0; j < i - width + 2; j++) {
+            for (int i = middle + 1; i <= last; i++) {
+                for (int j = 0; j < i - middle + 1; j++) {
                     cin >> values[i][j];
                     fill(num_path[i][j], num_path[i][j] + target + 1, 0);
                 }
             }
-            for (int i = width * 2 - 2; i >= width - 1; i--) {
-                for (int j = 0; j < i - width + 2; j++) {
-                    if (i == width * 2 - 2) {
+            for (int i = last; i >= middle; i--) {
+                for (int j = 0; j < i - middle + 1; j++) {
+                    if (i == last) {
                         num_path[i][j][values[i][j]] = 1;
                         continue;
                     }
@@ -41,8 +43,8 @@ class Solution {
                     }
                 }
             }
-            for (int i = width - 2; i >= 0; i--) {
-                for (int j = 0; j < width - i; j++) {
+            for (int i = middle - 1; i >= 0; i--) {
+                for (int j = 0; j < middle - i + 1; j++) {
                     for (int k = values[i][j]; k <= target; k++) {
                         num_path[i][j][k] = 0;
                         if (j + 1 < width - i) {
@@ -57,7 +59,7 @@ class Solution {
                 }
             }
 
-            long long total = 0;
+            int64_t total = 0;
             int start_col = -1;
             for (int j = 0; j < width; j++) {
                 total += num_path[0][j][target];

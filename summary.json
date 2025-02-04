@@ -486,6 +486,15 @@
     "tags": "sorting"
   },
   {
+    "link_prob_no": "10564",
+    "link_vol": "105",
+    "prob_link": "https://onlinejudge.org/external/105/10564.pdf",
+    "prob_no": "10564",
+    "prob_title": "Paths through the Hourglass",
+    "sub_id": "30130552",
+    "tags": "dp backtracking"
+  },
+  {
     "link_prob_no": "10684",
     "link_vol": "106",
     "prob_link": "https://onlinejudge.org/external/106/10684.pdf",

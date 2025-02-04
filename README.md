@@ -61,6 +61,7 @@ Feel free to open an issue or submit a pull request!
 | [10424](https://onlinejudge.org/external/104/10424.pdf) | Love Calculator | [UVA10424.cpp](UVA/Volume_104/UVA10424.cpp) | `recursion` | 30127443 |
 | [10469](https://onlinejudge.org/external/104/10469.pdf) | To Carry or not to Carry | [UVA10469.cpp](UVA/Volume_104/UVA10469.cpp) |  | 30093159 |
 | [10508](https://onlinejudge.org/external/105/10508.pdf) | Word Morphing | [UVA10508.cpp](UVA/Volume_105/UVA10508.cpp) | `sorting` | 30117400 |
+| [10564](https://onlinejudge.org/external/105/10564.pdf) | Paths through the Hourglass | [UVA10564.cpp](UVA/Volume_105/UVA10564.cpp) | `dp` `backtracking` | 30130552 |
 | [10684](https://onlinejudge.org/external/106/10684.pdf) | The jackpot | [UVA10684.cpp](UVA/Volume_106/UVA10684.cpp) | `dp` `max-subarray` | 30116929 |
 | [10714](https://onlinejudge.org/external/107/10714.pdf) | Ants | [UVA10714.cpp](UVA/Volume_107/UVA10714.cpp) |  | 30117988 |
 | [10812](https://onlinejudge.org/external/108/10812.pdf) | Beat the Spread! | [UVA10812.cpp](UVA/Volume_108/UVA10812.cpp) |  | 30127390 |
