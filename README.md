@@ -18,6 +18,7 @@ Feel free to open an issue or submit a pull request!
 | [136](https://onlinejudge.org/external/1/136.pdf) | Ugly Numbers | [UVA136.cpp](UVA/Volume_1/UVA136.cpp) |  | 30114703 |
 | [141](https://onlinejudge.org/external/1/141.pdf) | The Spot Game | [UVA141.cpp](UVA/Volume_1/UVA141.cpp) |  | 30112837 |
 | [151](https://onlinejudge.org/external/1/151.pdf) | Power Crisis | [UVA151.cpp](UVA/Volume_1/UVA151.cpp) |  | 30092107 |
+| [153](https://onlinejudge.org/external/1/153.pdf) | Permalex | [UVA153.cpp](UVA/Volume_1/UVA153.cpp) | `combinatorics` | 30130263 |
 | [170](https://onlinejudge.org/external/1/170.pdf) | Clock Patience | [UVA170.cpp](UVA/Volume_1/UVA170.cpp) |  | 30112824 |
 | [202](https://onlinejudge.org/external/2/202.pdf) | Repeating Decimals | [UVA202.cpp](UVA/Volume_2/UVA202.cpp) |  | 30114736 |
 | [222](https://onlinejudge.org/external/2/222.pdf) | Budget Travel | [UVA222.cpp](UVA/Volume_2/UVA222.cpp) | `dp` | 30127371 |
