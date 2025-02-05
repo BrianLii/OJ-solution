@@ -1,4 +1,5 @@
 import json
+from sys import stderr
 
 
 def json_to_markdown(json_data):
@@ -36,3 +37,4 @@ if __name__ == "__main__":
         template = template.read()
     with open("README.md", "w") as readme_file:
         readme_file.write(template.replace("SUMMARY_TABLE", table))
+    stderr.write("OK: Generated README.md\n")
