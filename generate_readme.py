@@ -37,4 +37,4 @@ if __name__ == "__main__":
         template = template.read()
     with open("README.md", "w") as readme_file:
         readme_file.write(template.replace("SUMMARY_TABLE", table))
-    stderr.write("OK: Generated README.md\n")
+    stderr.write("OK: README.md generated successfully\n")

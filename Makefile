@@ -15,7 +15,7 @@ README.md: generate_readme.py README.template.md summary.json
 
 lint:
 	@clang-format --dry-run --Werror $(SOURCE_FILES)
-	@echo 'OK: Lint check'
+	@echo 'OK: Lint check passed'
 
 clean:
 	rm -f summary.json README.md

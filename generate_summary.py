@@ -46,4 +46,4 @@ if __name__ == "__main__":
 
     with open(summary_file, "w") as file:
         json.dump(headers, file, indent=2, sort_keys=True)
-    stderr.write(f"OK: Summary saved in {summary_file}\n")
+    stderr.write(f"OK: Summary saved to {summary_file}\n")
