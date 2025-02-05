@@ -10,8 +10,8 @@ summary.json: generate_summary.py $(SOURCE_FILES) $(SOURCE_DIRS)
 	@$(MAKE) -s lint
 	python generate_summary.py
 
-README.md: generate_README.py README.template.md summary.json
-	python generate_README.py
+README.md: generate_readme.py README.template.md summary.json
+	python generate_readme.py
 
 lint:
 	@clang-format --dry-run --Werror $(SOURCE_FILES)
