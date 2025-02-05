@@ -2,7 +2,7 @@
     Solution for: UVA 100 - The 3n + 1 Problem
     Problem Link: https://onlinejudge.org/external/1/100.pdf
     Verdict: Accepted
-    Submission ID: 30132333
+    Submission ID: 30132345
     Tags: memorization
 */
 
@@ -23,7 +23,6 @@ class Solution {
             }
         }
         if (adjust) return adjust + cycle(num);
-
         int &answer = cycles[num];
         if (answer) return answer;
         if (num == 1) return answer = 1;
@@ -48,7 +47,7 @@ class Solution {
         }
     }
 };
-int Solution::cycles[1000001] = {0};
+int Solution::cycles[Solution::max_num + 1] = {0};
 
 int main() {
     ios::sync_with_stdio(0);
