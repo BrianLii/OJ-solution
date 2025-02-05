@@ -7,7 +7,7 @@ Feel free to open an issue or submit a pull request!
 ## Summary
 | Problem No. | Title | Solution | Tags | Submission ID |
 | ----------- | ----- | -------- | ---- | ------------- |
-| [100](https://onlinejudge.org/external/1/100.pdf) | The 3n + 1 Problem | [UVA100.cpp](UVA/Volume_1/UVA100.cpp) |  | 30090733 |
+| [100](https://onlinejudge.org/external/1/100.pdf) | The 3n + 1 Problem | [UVA100.cpp](UVA/Volume_1/UVA100.cpp) | `memorization` | 30132333 |
 | [102](https://onlinejudge.org/external/1/102.pdf) | Ecological Bin Packing | [UVA102.cpp](UVA/Volume_1/UVA102.cpp) |  | 30090841 |
 | [105](https://onlinejudge.org/external/1/105.pdf) | The Skyline Problem | [UVA105.cpp](UVA/Volume_1/UVA105.cpp) |  | 30090910 |
 | [106](https://onlinejudge.org/external/1/106.pdf) | Fermat vs. Pythagoras | [UVA106.cpp](UVA/Volume_1/UVA106.cpp) | `math` `difference-array` | 30116957 |
