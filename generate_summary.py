@@ -1,8 +1,7 @@
-import argparse
 import re
 import os
 import json
-import sys
+from sys import stderr
 
 
 def parse_header(filename):
@@ -27,42 +26,24 @@ def parse_header(filename):
     return header
 
 
-def get_args():
-    arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument(
-        "--verbose",
-        action="store_true",
-    )
-    arg_parser.add_argument(
-        "--summary_file",
-        default="summary.json",
-        type=str,
-    )
-    arg_parser.add_argument(
-        "--directory",
-        default="UVA",
-        type=str,
-    )
-    return arg_parser.parse_args()
-
-
 if __name__ == "__main__":
-    args = get_args()
+    verbose = False
+    directory = "UVA"
+    summary_file = "summary.json"
+
     headers = []
-    for root, dirs, files in os.walk(args.directory):
+    for root, dirs, files in os.walk(directory):
         for file in files:
             try:
                 header = parse_header(os.path.join(root, file))
                 headers.append(header)
-                if args.verbose:
-                    print("OK: ", os.path.join(root, file), file=sys.stderr)
-                    print(json.dumps(header, indent=2), file=sys.stderr)
             except:
-                print("FAIL: ", os.path.join(root, file), file=sys.stderr)
-                exit(1)
+                stderr.write(f"FAIL: File {os.path.join(root, file)}\n")
+            if verbose:
+                stderr.write(f"OK: File {os.path.join(root, file)}\n")
+                stderr.write(f"{json.dumps(header, indent=2)}\n")
     headers = sorted(headers, key=lambda header: int(header["prob_no"]))
 
-    print(f"OK: data saved in {args.summary_file}", file=sys.stderr)
-    with open(args.summary_file, "w") as file:
+    with open(summary_file, "w") as file:
         json.dump(headers, file, indent=2, sort_keys=True)
-    exit(0)
+    stderr.write(f"OK: Summary saved in {summary_file}\n")
