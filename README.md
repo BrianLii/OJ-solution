@@ -49,6 +49,7 @@ This repository includes scripts that automatically generate the following summa
 | [993](https://onlinejudge.org/external/9/993.pdf) | Product of digits | [UVA993.cpp](UVA/Volume_9/UVA993.cpp) |  | 30118084 |
 | [1124](https://onlinejudge.org/external/11/1124.pdf) | Celebrity jeopardy | [UVA1124.cpp](UVA/Volume_11/UVA1124.cpp) |  | 30117894 |
 | [1200](https://onlinejudge.org/external/12/1200.pdf) | A DP Problem | [UVA1200.cpp](UVA/Volume_12/UVA1200.cpp) |  | 30113397 |
+| [1225](https://onlinejudge.org/external/12/1225.pdf) | Digit Counting | [UVA1225.cpp](UVA/Volume_12/UVA1225.cpp) |  | 30147377 |
 | [1583](https://onlinejudge.org/external/15/1583.pdf) | Digit Generator | [UVA1583.cpp](UVA/Volume_15/UVA1583.cpp) |  | 30117983 |
 | [10008](https://onlinejudge.org/external/100/10008.pdf) | What’s Cryptanalysis? | [UVA10008.cpp](UVA/Volume_100/UVA10008.cpp) |  | 30093393 |
 | [10013](https://onlinejudge.org/external/100/10013.pdf) | Super long sums | [UVA10013.cpp](UVA/Volume_100/UVA10013.cpp) |  | 30095476 |
