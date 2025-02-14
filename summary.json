@@ -171,6 +171,15 @@
     "tags": "sssp dijkstra"
   },
   {
+    "link_prob_no": "357",
+    "link_vol": "3",
+    "prob_link": "https://onlinejudge.org/external/3/357.pdf",
+    "prob_no": "357",
+    "prob_title": "Let Me Count The Ways",
+    "sub_id": "30150943",
+    "tags": "dp coin-changing"
+  },
+  {
     "link_prob_no": "374",
     "link_vol": "3",
     "prob_link": "https://onlinejudge.org/external/3/374.pdf",

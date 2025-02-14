@@ -32,6 +32,7 @@ This repository includes scripts that automatically generate the following summa
 | [307](https://onlinejudge.org/external/3/307.pdf) | Sticks | [UVA307.cpp](UVA/Volume_3/UVA307.cpp) | `dfs` `pruning` | 30107337 |
 | [336](https://onlinejudge.org/external/3/336.pdf) | A Node Too Far | [UVA336.cpp](UVA/Volume_3/UVA336.cpp) | `bfs` | 30120598 |
 | [341](https://onlinejudge.org/external/3/341.pdf) | Non-Stop Travel | [UVA341.cpp](UVA/Volume_3/UVA341.cpp) | `sssp` `dijkstra` | 30131000 |
+| [357](https://onlinejudge.org/external/3/357.pdf) | Let Me Count The Ways | [UVA357.cpp](UVA/Volume_3/UVA357.cpp) | `dp` `coin-changing` | 30150943 |
 | [374](https://onlinejudge.org/external/3/374.pdf) | Big Mod | [UVA374.cpp](UVA/Volume_3/UVA374.cpp) | `square-and-mul` | 30116944 |
 | [382](https://onlinejudge.org/external/3/382.pdf) | Perfection | [UVA382.cpp](UVA/Volume_3/UVA382.cpp) |  | 30125508 |
 | [412](https://onlinejudge.org/external/4/412.pdf) | Pi | [UVA412.cpp](UVA/Volume_4/UVA412.cpp) |  | 30150908 |
