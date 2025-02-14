@@ -34,6 +34,7 @@ This repository includes scripts that automatically generate the following summa
 | [341](https://onlinejudge.org/external/3/341.pdf) | Non-Stop Travel | [UVA341.cpp](UVA/Volume_3/UVA341.cpp) | `sssp` `dijkstra` | 30131000 |
 | [374](https://onlinejudge.org/external/3/374.pdf) | Big Mod | [UVA374.cpp](UVA/Volume_3/UVA374.cpp) | `square-and-mul` | 30116944 |
 | [382](https://onlinejudge.org/external/3/382.pdf) | Perfection | [UVA382.cpp](UVA/Volume_3/UVA382.cpp) |  | 30125508 |
+| [412](https://onlinejudge.org/external/4/412.pdf) | Pi | [UVA412.cpp](UVA/Volume_4/UVA412.cpp) |  | 30150908 |
 | [424](https://onlinejudge.org/external/4/424.pdf) | Integer Inquiry | [UVA424.cpp](UVA/Volume_4/UVA424.cpp) |  | 30113995 |
 | [439](https://onlinejudge.org/external/4/439.pdf) | Knight Moves | [UVA439.cpp](UVA/Volume_4/UVA439.cpp) | `bfs` | 30120643 |
 | [492](https://onlinejudge.org/external/4/492.pdf) | Pig-Latin | [UVA492.cpp](UVA/Volume_4/UVA492.cpp) |  | 30113411 |
