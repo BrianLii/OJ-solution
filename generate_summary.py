@@ -39,6 +39,7 @@ if __name__ == "__main__":
                 headers.append(header)
             except:
                 stderr.write(f"FAIL: File {os.path.join(root, file)}\n")
+                exit(1)
             if verbose:
                 stderr.write(f"OK: File {os.path.join(root, file)}\n")
                 stderr.write(f"{json.dumps(header, indent=2)}\n")
