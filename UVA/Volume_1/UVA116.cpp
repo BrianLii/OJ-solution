@@ -2,7 +2,7 @@
     Solution for: UVA 116 - Unidirectional TSP
     Problem Link: https://onlinejudge.org/external/1/116.pdf
     Verdict: Accepted
-    Submission ID: 30151727
+    Submission ID: 30151729
     Tags: dp
 */
 
@@ -25,31 +25,31 @@ class Solution {
             }
             for (int j = width - 2; j >= 0; j--) {
                 for (int i = 0; i < height; i++) {
-                    int sub, mid, add;
+                    int top, mid, bot;
                     if (height == 1) {
-                        sub = mid = add = i;
+                        top = mid = bot = i;
                     } else if (i == 0) {
-                        sub = 0;
+                        top = 0;
                         mid = 1;
-                        add = height - 1;
+                        bot = height - 1;
                     } else if (i == height - 1) {
-                        sub = 0;
+                        top = 0;
                         mid = height - 2;
-                        add = height - 1;
+                        bot = height - 1;
                     } else {
-                        sub = i - 1;
+                        top = i - 1;
                         mid = i;
-                        add = i + 1;
+                        bot = i + 1;
                     }
-                    min_cost[i][j] = min_cost[sub][j + 1];
-                    min_path[i][j] = sub;
+                    min_cost[i][j] = min_cost[top][j + 1];
+                    min_path[i][j] = top;
                     if (min_cost[i][j] > min_cost[mid][j + 1]) {
                         min_cost[i][j] = min_cost[mid][j + 1];
                         min_path[i][j] = mid;
                     }
-                    if (min_cost[i][j] > min_cost[add][j + 1]) {
-                        min_cost[i][j] = min_cost[add][j + 1];
-                        min_path[i][j] = add;
+                    if (min_cost[i][j] > min_cost[bot][j + 1]) {
+                        min_cost[i][j] = min_cost[bot][j + 1];
+                        min_path[i][j] = bot;
                     }
                     min_cost[i][j] += matrix[i][j];
                 }
