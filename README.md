@@ -19,7 +19,7 @@ This repository includes scripts that automatically generate the following summa
 | [106](https://onlinejudge.org/external/1/106.pdf) | Fermat vs. Pythagoras | [UVA106.cpp](UVA/Volume_1/UVA106.cpp) | `math` `difference-array` | 30116957 |
 | [108](https://onlinejudge.org/external/1/108.pdf) | Maximum Sum | [UVA108.cpp](UVA/Volume_1/UVA108.cpp) |  | 30091665 |
 | [113](https://onlinejudge.org/external/1/113.pdf) | Power of Cryptography | [UVA113.cpp](UVA/Volume_1/UVA113.cpp) |  | 30091672 |
-| [116](https://onlinejudge.org/external/1/116.pdf) | Unidirectional TSP | [UVA116.cpp](UVA/Volume_1/UVA116.cpp) |  | 30151095 |
+| [116](https://onlinejudge.org/external/1/116.pdf) | Unidirectional TSP | [UVA116.cpp](UVA/Volume_1/UVA116.cpp) | `dp` | 30151095 |
 | [128](https://onlinejudge.org/external/1/128.pdf) | Software CRC | [UVA128.cpp](UVA/Volume_1/UVA128.cpp) |  | 30091829 |
 | [131](https://onlinejudge.org/external/1/131.pdf) | The Psychic Poker Player | [UVA131.cpp](UVA/Volume_1/UVA131.cpp) |  | 30114696 |
 | [136](https://onlinejudge.org/external/1/136.pdf) | Ugly Numbers | [UVA136.cpp](UVA/Volume_1/UVA136.cpp) |  | 30114703 |
@@ -62,7 +62,7 @@ This repository includes scripts that automatically generate the following summa
 | [10034](https://onlinejudge.org/external/100/10034.pdf) | Freckles | [UVA10034.cpp](UVA/Volume_100/UVA10034.cpp) | `mst` `kruskal` | 30117380 |
 | [10041](https://onlinejudge.org/external/100/10041.pdf) | Vito’s family | [UVA10041.cpp](UVA/Volume_100/UVA10041.cpp) |  | 30130447 |
 | [10074](https://onlinejudge.org/external/100/10074.pdf) | Take the Land | [UVA10074.cpp](UVA/Volume_100/UVA10074.cpp) |  | 30095399 |
-| [10086](https://onlinejudge.org/external/100/10086.pdf) | Test the Rods | [UVA10086.cpp](UVA/Volume_100/UVA10086.cpp) | `dp` `backtracking` | 30130306 |
+| [10086](https://onlinejudge.org/external/100/10086.pdf) | Test the Rods | [UVA10086.cpp](UVA/Volume_100/UVA10086.cpp) | `dp` | 30130306 |
 | [10099](https://onlinejudge.org/external/100/10099.pdf) | The Tourist Guide | [UVA10099.cpp](UVA/Volume_100/UVA10099.cpp) |  | 30095657 |
 | [10127](https://onlinejudge.org/external/101/10127.pdf) | Ones | [UVA10127.cpp](UVA/Volume_101/UVA10127.cpp) |  | 30093369 |
 | [10168](https://onlinejudge.org/external/101/10168.pdf) | Summation of Four Primes | [UVA10168.cpp](UVA/Volume_101/UVA10168.cpp) |  | 30113307 |
@@ -73,7 +73,7 @@ This repository includes scripts that automatically generate the following summa
 | [10424](https://onlinejudge.org/external/104/10424.pdf) | Love Calculator | [UVA10424.cpp](UVA/Volume_104/UVA10424.cpp) | `recursion` | 30127443 |
 | [10469](https://onlinejudge.org/external/104/10469.pdf) | To Carry or not to Carry | [UVA10469.cpp](UVA/Volume_104/UVA10469.cpp) |  | 30093159 |
 | [10508](https://onlinejudge.org/external/105/10508.pdf) | Word Morphing | [UVA10508.cpp](UVA/Volume_105/UVA10508.cpp) | `sorting` | 30117400 |
-| [10564](https://onlinejudge.org/external/105/10564.pdf) | Paths through the Hourglass | [UVA10564.cpp](UVA/Volume_105/UVA10564.cpp) | `dp` `backtracking` | 30130552 |
+| [10564](https://onlinejudge.org/external/105/10564.pdf) | Paths through the Hourglass | [UVA10564.cpp](UVA/Volume_105/UVA10564.cpp) | `dp` | 30130552 |
 | [10684](https://onlinejudge.org/external/106/10684.pdf) | The jackpot | [UVA10684.cpp](UVA/Volume_106/UVA10684.cpp) | `dp` `max-subarray` | 30116929 |
 | [10714](https://onlinejudge.org/external/107/10714.pdf) | Ants | [UVA10714.cpp](UVA/Volume_107/UVA10714.cpp) |  | 30117988 |
 | [10812](https://onlinejudge.org/external/108/10812.pdf) | Beat the Spread! | [UVA10812.cpp](UVA/Volume_108/UVA10812.cpp) |  | 30127390 |

@@ -3,7 +3,7 @@
     Problem Link: https://onlinejudge.org/external/105/10564.pdf
     Verdict: Accepted
     Submission ID: 30130552
-    Tags: dp backtracking
+    Tags: dp
 */
 
 #include <bits/stdc++.h>

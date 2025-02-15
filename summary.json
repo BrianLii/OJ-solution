@@ -60,7 +60,7 @@
     "prob_no": "116",
     "prob_title": "Unidirectional TSP",
     "sub_id": "30151095",
-    "tags": null
+    "tags": "dp"
   },
   {
     "link_prob_no": "128",
@@ -447,7 +447,7 @@
     "prob_no": "10086",
     "prob_title": "Test the Rods",
     "sub_id": "30130306",
-    "tags": "dp backtracking"
+    "tags": "dp"
   },
   {
     "link_prob_no": "10099",
@@ -546,7 +546,7 @@
     "prob_no": "10564",
     "prob_title": "Paths through the Hourglass",
     "sub_id": "30130552",
-    "tags": "dp backtracking"
+    "tags": "dp"
   },
   {
     "link_prob_no": "10684",
