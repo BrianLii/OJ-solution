@@ -3,7 +3,7 @@
     Problem Link: https://onlinejudge.org/external/3/357.pdf
     Verdict: Accepted
     Submission ID: 30150943
-    Tags: dp coin-changing
+    Tags: dp change-making
 */
 
 #include <bits/stdc++.h>
