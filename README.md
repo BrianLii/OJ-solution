@@ -19,7 +19,7 @@ This repository includes scripts that automatically generate the following summa
 | [106](https://onlinejudge.org/external/1/106.pdf) | Fermat vs. Pythagoras | [UVA106.cpp](UVA/Volume_1/UVA106.cpp) | `math` `difference-array` | 30116957 |
 | [108](https://onlinejudge.org/external/1/108.pdf) | Maximum Sum | [UVA108.cpp](UVA/Volume_1/UVA108.cpp) |  | 30091665 |
 | [113](https://onlinejudge.org/external/1/113.pdf) | Power of Cryptography | [UVA113.cpp](UVA/Volume_1/UVA113.cpp) |  | 30091672 |
-| [116](https://onlinejudge.org/external/1/116.pdf) | Unidirectional TSP | [UVA116.cpp](UVA/Volume_1/UVA116.cpp) | `dp` | 30151095 |
+| [116](https://onlinejudge.org/external/1/116.pdf) | Unidirectional TSP | [UVA116.cpp](UVA/Volume_1/UVA116.cpp) | `dp` | 30151727 |
 | [128](https://onlinejudge.org/external/1/128.pdf) | Software CRC | [UVA128.cpp](UVA/Volume_1/UVA128.cpp) |  | 30091829 |
 | [131](https://onlinejudge.org/external/1/131.pdf) | The Psychic Poker Player | [UVA131.cpp](UVA/Volume_1/UVA131.cpp) |  | 30114696 |
 | [136](https://onlinejudge.org/external/1/136.pdf) | Ugly Numbers | [UVA136.cpp](UVA/Volume_1/UVA136.cpp) |  | 30114703 |

@@ -2,7 +2,7 @@
     Solution for: UVA 116 - Unidirectional TSP
     Problem Link: https://onlinejudge.org/external/1/116.pdf
     Verdict: Accepted
-    Submission ID: 30151095
+    Submission ID: 30151727
     Tags: dp
 */
 
@@ -12,8 +12,8 @@ using namespace std;
 class Solution {
    public:
     void solve() {
-        int case_id = 0, width, height;
-        int min_cost[10][100], min_path[10][100], matrix[10][100];
+        int width, height, matrix[10][100];
+        int min_cost[10][100], min_path[10][100];
         while (cin >> height >> width) {
             for (int i = 0; i < height; i++) {
                 for (int j = 0; j < width; j++) {
