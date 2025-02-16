@@ -369,6 +369,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "1062",
+    "link_vol": "10",
+    "prob_link": "https://onlinejudge.org/external/10/1062.pdf",
+    "prob_no": "1062",
+    "prob_title": "Containers",
+    "sub_id": "30153322",
+    "tags": "dp lis"
+  },
+  {
     "link_prob_no": "1124",
     "link_vol": "11",
     "prob_link": "https://onlinejudge.org/external/11/1124.pdf",

@@ -54,6 +54,7 @@ This repository includes scripts that automatically generate the following summa
 | [900](https://onlinejudge.org/external/9/900.pdf) | Brick Wall Patterns | [UVA900.cpp](UVA/Volume_9/UVA900.cpp) |  | 30092317 |
 | [913](https://onlinejudge.org/external/9/913.pdf) | Joana and the Odd Numbers | [UVA913.cpp](UVA/Volume_9/UVA913.cpp) |  | 30127418 |
 | [993](https://onlinejudge.org/external/9/993.pdf) | Product of digits | [UVA993.cpp](UVA/Volume_9/UVA993.cpp) |  | 30118084 |
+| [1062](https://onlinejudge.org/external/10/1062.pdf) | Containers | [UVA1062.cpp](UVA/Volume_10/UVA1062.cpp) | `dp` `lis` | 30153322 |
 | [1124](https://onlinejudge.org/external/11/1124.pdf) | Celebrity jeopardy | [UVA1124.cpp](UVA/Volume_11/UVA1124.cpp) |  | 30117894 |
 | [1200](https://onlinejudge.org/external/12/1200.pdf) | A DP Problem | [UVA1200.cpp](UVA/Volume_12/UVA1200.cpp) |  | 30113397 |
 | [1225](https://onlinejudge.org/external/12/1225.pdf) | Digit Counting | [UVA1225.cpp](UVA/Volume_12/UVA1225.cpp) |  | 30147377 |
