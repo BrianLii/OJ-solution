@@ -47,6 +47,7 @@ This repository includes scripts that automatically generate the following summa
 | [541](https://onlinejudge.org/external/5/541.pdf) | Error Correction | [UVA541.cpp](UVA/Volume_5/UVA541.cpp) |  | 30113281 |
 | [543](https://onlinejudge.org/external/5/543.pdf) | Goldbach’s Conjecture | [UVA543.cpp](UVA/Volume_5/UVA543.cpp) |  | 30097684 |
 | [568](https://onlinejudge.org/external/5/568.pdf) | Just the Facts | [UVA568.cpp](UVA/Volume_5/UVA568.cpp) |  | 30092374 |
+| [583](https://onlinejudge.org/external/5/583.pdf) | Prime Factors | [UVA583.cpp](UVA/Volume_5/UVA583.cpp) | `sieve` | 30153187 |
 | [700](https://onlinejudge.org/external/7/700.pdf) | Date Bugs | [UVA700.cpp](UVA/Volume_7/UVA700.cpp) |  | 30105628 |
 | [713](https://onlinejudge.org/external/7/713.pdf) | Adding Reversed Numbers | [UVA713.cpp](UVA/Volume_7/UVA713.cpp) |  | 30125564 |
 | [821](https://onlinejudge.org/external/8/821.pdf) | Page Hopping | [UVA821.cpp](UVA/Volume_8/UVA821.cpp) |  | 30097532 |
