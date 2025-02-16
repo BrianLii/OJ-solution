@@ -675,6 +675,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "11235",
+    "link_vol": "112",
+    "prob_link": "https://onlinejudge.org/external/112/11235.pdf",
+    "prob_no": "11235",
+    "prob_title": "Frequent values",
+    "sub_id": "30153308",
+    "tags": "sparse-table"
+  },
+  {
     "link_prob_no": "11364",
     "link_vol": "113",
     "prob_link": "https://onlinejudge.org/external/113/11364.pdf",

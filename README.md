@@ -88,6 +88,7 @@ This repository includes scripts that automatically generate the following summa
 | [11044](https://onlinejudge.org/external/110/11044.pdf) | Searching for Nessy | [UVA11044.cpp](UVA/Volume_110/UVA11044.cpp) |  | 30116841 |
 | [11133](https://onlinejudge.org/external/111/11133.pdf) | Eigensequence | [UVA11133.cpp](UVA/Volume_111/UVA11133.cpp) | `dp` | 30131115 |
 | [11222](https://onlinejudge.org/external/112/11222.pdf) | Only I did it! | [UVA11222.cpp](UVA/Volume_112/UVA11222.cpp) |  | 30107828 |
+| [11235](https://onlinejudge.org/external/112/11235.pdf) | Frequent values | [UVA11235.cpp](UVA/Volume_112/UVA11235.cpp) | `sparse-table` | 30153308 |
 | [11364](https://onlinejudge.org/external/113/11364.pdf) | Optimal Parking | [UVA11364.cpp](UVA/Volume_113/UVA11364.cpp) |  | 30093149 |
 | [11388](https://onlinejudge.org/external/113/11388.pdf) | GCD LCM | [UVA11388.cpp](UVA/Volume_113/UVA11388.cpp) |  | 30097666 |
 | [11417](https://onlinejudge.org/external/114/11417.pdf) | GCD | [UVA11417.cpp](UVA/Volume_114/UVA11417.cpp) |  | 30092204 |
