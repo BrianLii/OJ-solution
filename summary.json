@@ -108,6 +108,15 @@
     "tags": null
   },
   {
+    "link_prob_no": "147",
+    "link_vol": "1",
+    "prob_link": "https://onlinejudge.org/external/1/147.pdf",
+    "prob_no": "147",
+    "prob_title": "Dollars",
+    "sub_id": "30155531",
+    "tags": "dp change-making"
+  },
+  {
     "link_prob_no": "151",
     "link_vol": "1",
     "prob_link": "https://onlinejudge.org/external/1/151.pdf",

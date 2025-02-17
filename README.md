@@ -25,6 +25,7 @@ This repository includes scripts that automatically generate the following summa
 | [131](https://onlinejudge.org/external/1/131.pdf) | The Psychic Poker Player | [UVA131.cpp](UVA/Volume_1/UVA131.cpp) |  | 30114696 |
 | [136](https://onlinejudge.org/external/1/136.pdf) | Ugly Numbers | [UVA136.cpp](UVA/Volume_1/UVA136.cpp) |  | 30114703 |
 | [141](https://onlinejudge.org/external/1/141.pdf) | The Spot Game | [UVA141.cpp](UVA/Volume_1/UVA141.cpp) |  | 30112837 |
+| [147](https://onlinejudge.org/external/1/147.pdf) | Dollars | [UVA147.cpp](UVA/Volume_1/UVA147.cpp) | `dp` `change-making` | 30155531 |
 | [151](https://onlinejudge.org/external/1/151.pdf) | Power Crisis | [UVA151.cpp](UVA/Volume_1/UVA151.cpp) |  | 30092107 |
 | [153](https://onlinejudge.org/external/1/153.pdf) | Permalex | [UVA153.cpp](UVA/Volume_1/UVA153.cpp) | `combinatorics` | 30130263 |
 | [170](https://onlinejudge.org/external/1/170.pdf) | Clock Patience | [UVA170.cpp](UVA/Volume_1/UVA170.cpp) |  | 30112824 |
