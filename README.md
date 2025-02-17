@@ -96,6 +96,7 @@ This repository includes scripts that automatically generate the following summa
 | [11417](https://onlinejudge.org/external/114/11417.pdf) | GCD | [UVA11417.cpp](UVA/Volume_114/UVA11417.cpp) |  | 30092204 |
 | [11428](https://onlinejudge.org/external/114/11428.pdf) | Cubes | [UVA11428.cpp](UVA/Volume_114/UVA11428.cpp) |  | 30096337 |
 | [11462](https://onlinejudge.org/external/114/11462.pdf) | Age Sort | [UVA11462.cpp](UVA/Volume_114/UVA11462.cpp) | `counting-sort` | 30130562 |
+| [11479](https://onlinejudge.org/external/114/11479.pdf) | Is this the easiest problem? | [UVA11479.cpp](UVA/Volume_114/UVA11479.cpp) |  | 30155565 |
 | [11486](https://onlinejudge.org/external/114/11486.pdf) | Finding Paths in Grid | [UVA11486.cpp](UVA/Volume_114/UVA11486.cpp) |  | 30097271 |
 | [11492](https://onlinejudge.org/external/114/11492.pdf) | Babel | [UVA11492.cpp](UVA/Volume_114/UVA11492.cpp) | `sssp` `dijkstra` | 30130960 |
 | [11494](https://onlinejudge.org/external/114/11494.pdf) | Queen | [UVA11494.cpp](UVA/Volume_114/UVA11494.cpp) |  | 30096283 |
